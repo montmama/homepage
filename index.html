@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>montmama | 自在入山，做山野里的自己</title>
-<meta name="description" content="montmama 是面向亚洲女性的专业户外装备品牌，以贴合女性身形的剪裁、功能面料与克制的山野美学，陪伴女性走向山野。" />
+<meta name="description" content="montmama 是面向亚洲女性的专业户外装备品牌，以贴合女性身形的剪裁、功能面料与克制的山野美学，陪伴女性走向山野。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
   :root{
@@ -22,34 +22,31 @@
     --carbon:#212527;
   }
   .brand-img {
-  height: 36px;
-  width: auto;
-  object-fit: contain;
-}
-@media(max-width:768px){
-  .brand-img{
-    height:28px;
+    height: 1.2em;
+    max-height: 32px;
+    width: auto;
+    object-fit: contain;
   }
-}
   *{
-  box-sizing: border-box;
-}
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
-.hero-banner {
-  width: 100%;
-  max-width: 100%;
-  object-fit: cover;
-}
-.hero-text-wrap {
-  padding: 0 24px;
-}
-  *{box-sizing:border-box;margin:0;padding:0}
-  html{scroll-behavior:smooth}
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .hero-banner {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .hero-text-wrap {
+    padding: 0 24px;
+  }
   body{
     font-family:"Inter","Noto Sans SC",-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
     background:var(--bg);
@@ -78,18 +75,6 @@ html, body {
   .brand{
     font-weight:700;font-size:18px;letter-spacing:.22em;color:var(--ink);
     display:flex;align-items:center;gap:10px;
-  }
-  .brand-mark{
-    width:28px;height:28px;border-radius:50%;
-    background:
-      radial-gradient(circle at 30% 25%, rgba(255,255,255,.9), rgba(255,255,255,0) 34%),
-      linear-gradient(145deg,#2F4552 0%, #6F8A99 42%, #B5A896 100%);
-    box-shadow:0 10px 24px rgba(47,69,82,.35);
-    position:relative;
-  }
-  .brand-mark::after{
-    content:"";position:absolute;inset:7px;border-radius:50%;
-    border:1.5px solid rgba(255,255,255,.72);
   }
   .nav-menu{display:flex;gap:34px;list-style:none}
   .nav-menu a{
@@ -131,7 +116,7 @@ html, body {
     margin-bottom:18px;
   }
   .hero-title{
-    font-size:clamp(44px,7vw,96px);
+    font-size:clamp(36px,6vw,72px);
     font-weight:600;letter-spacing:.08em;line-height:1.02;
     margin-bottom:22px;
   }
@@ -446,7 +431,7 @@ html, body {
   <div class="hero-mask"></div>
   <div class="hero-content">
     <div class="hero-kicker">Women's Mountain Equipment · Est. 2025</div>
-    <h1 class="hero-title">montmama<br><em>Built for her.</em><br><em>Built for the wild.</em></h1>
+    <h1 class="hero-title"><em>Built for her.</em><br><em>Built for the wild.</em></h1>
     <p class="hero-sub">
       montmama 是面向亚洲女性的专业户外装备品牌。我们以贴合女性身形的剪裁、可靠的功能面料与克制的山野美学，陪你走向更高、更远、更自在。
     </p>
@@ -470,7 +455,7 @@ html, body {
           不做户外服饰的“小号版本”，只做真正适合女性的专业装备。
         </p>
       </div>
-      <div class="forus-text reveal">
+      <div class="forus-text reveal in">
         <p><strong>MONTMAMA 是深耕东方女性的专业户外着装品牌。</strong></p>
         <p>以“自在入山，做山野里的自己”为品牌理念，依托专属剪裁、功能面料与极简美学设计，打造专属于东方女性的山野功能服饰。</p>
         <p>我们相信，好的户外装备不该让女性妥协。它应该更贴合身形、更适应动作、更经得起山地天气，也更像你——独立、坚定、持续向前。</p>
@@ -498,7 +483,7 @@ html, body {
 <section class="origin" id="origin">
   <div class="container">
     <div class="origin-grid">
-      <div class="origin-media reveal">
+      <div class="origin-media reveal in">
         <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?auto=format&fit=crop&w=1400&q=80" alt="montmama 品牌起源">
         <span class="label">THE ORIGIN</span>
       </div>
@@ -680,7 +665,6 @@ html, body {
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer class="footer">
   <div class="footer-top">
     <div class="container footer-inner">
