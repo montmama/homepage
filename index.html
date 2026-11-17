@@ -21,6 +21,16 @@
     --fog:#E7EAE8;
     --carbon:#212527;
   }
+  .brand-img {
+  height: 36px;
+  width: auto;
+  object-fit: contain;
+}
+@media(max-width:768px){
+  .brand-img{
+    height:28px;
+  }
+}
   *{
   box-sizing: border-box;
 }
@@ -416,8 +426,7 @@ html, body {
 <header class="nav">
   <div class="container nav-inner">
     <a href="#top" class="brand">
-      <span class="brand-mark"></span>
-      <span>MONTMAMA</span>
+      <img src="montmama-印花.png" alt="MONTMAMA" class="brand-img">
     </a>
     <ul class="nav-menu">
       <li><a href="#forus">For Us</a></li>
