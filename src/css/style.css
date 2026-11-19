@@ -353,16 +353,15 @@ img{max-width:100%;display:block}
 }
 .footer-inner{text-align:center;color:#fff}
 .footer-brand {
+  width: 100%;
+  flex: 0 0 100%;
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 .footer-brand img {
-  /* clamp(最小值, 动态值, 最大值) */
-  max-width: clamp(160px, 28vw, 420px);
-  height: auto;
+  height: clamp(40px, 6vw, 72px);
+  width: auto;
   object-fit: contain;
   display: block;
 }
