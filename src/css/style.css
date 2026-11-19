@@ -355,14 +355,16 @@ img{max-width:100%;display:block}
 .footer-brand {
   margin-bottom: 16px;
   display: flex;
-  justify-content: center; /* 水平居中 */
-  align-items: center;     /* 垂直居中 */
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .footer-brand img {
-  max-height: 72px;
-  width: auto;
+  /* clamp(最小值, 动态值, 最大值) */
+  max-width: clamp(160px, 28vw, 420px);
+  height: auto;
   object-fit: contain;
+  display: block;
 }
 .footer-slogan{
   font-size:16px;letter-spacing:.28em;text-transform:uppercase;color:rgba(255,255,255,.7);
