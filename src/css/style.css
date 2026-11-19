@@ -352,15 +352,17 @@ img{max-width:100%;display:block}
     url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1800&q=80") center/cover no-repeat;
 }
 .footer-inner{text-align:center;color:#fff}
-.footer-brand{
-  margin-bottom:16px;
-  display:flex;
-  justify-content:center;
+.footer-brand {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center;     /* 垂直居中 */
+  width: 100%;
 }
-.footer-brand img{
-  max-height:72px;
-  width:auto;
-  object-fit:contain;
+.footer-brand img {
+  max-height: 72px;
+  width: auto;
+  object-fit: contain;
 }
 .footer-slogan{
   font-size:16px;letter-spacing:.28em;text-transform:uppercase;color:rgba(255,255,255,.7);
